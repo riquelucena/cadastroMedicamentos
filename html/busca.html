@@ -19,10 +19,14 @@
     <main>
         <h2>Busca de Medicamentos</h2>
         <div>
-            <label for="nome"></label>
-            <input type="text" required>
+            <label for="nome">Nome do Medicamento</label>
+            <input type="text" id="nomeMedicamento" required>
 
-            <button type="button" class="botaoBuscar">Buscar</button>
+            <button type="button" onclick="buscaMedicamento(document.getElementById('nomeMedicamento').value)" class="botaoBuscar">Buscar</button>
+        </div>
+        <div>
+            <ul class = lista-de-medicamentos>                
+            </ul>
         </div>
     </main>
     <footer>
