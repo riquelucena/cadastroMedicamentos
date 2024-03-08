@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/busca.css" screen="media">
+    <link rel="stylesheet" href="../css/listamedicamentos.css" screen="media">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Capriola&display=swap" rel="stylesheet">
     <link rel="icon" href="../img/medicina.png" type="image/png">
-    <script src="../js/busca.js"></script>
+    <script src="../js/listamedicamentos.js"></script>
     <title>Controle de Estoque de Medicamentos</title>
 </head>
 <body>
@@ -16,24 +16,15 @@
         <h1 class="title">Controle de</h1>
             <div class="links">
                 <a href="index.html">Início</a>
-                <a href="cadastromedicamentos.html">Cadastro de Medicamentos</a>
+                <a href="cadastromedicamentos.html">Cadastro de Medicamentos</a>                
                 <a href="listamedicamentos.html">Medicamentos Cadastrados</a>
+                <a href="busca.html">Busca</a>
                 <a href="cadastrofornecedores.html">Cadastro de Fornecedores</a>
-                <a href="listafornecedores.html">Fornecedores Cadastrados</a>
             </div>        
     </header>
     <main class="main">
-        <h2>Busca de Medicamentos</h2>
-        <div>
-            <label for="nome">Nome do Medicamento</label>
-            <input type="text" id="nomeMedicamento" required>
-
-            <button type="button" onclick="buscaMedicamento(document.getElementById('nomeMedicamento').value)" class="botaoBuscar">Buscar</button>
-        </div>
-        <div>
-            <ul class = lista-de-medicamentos>                
-            </ul>
-        </div>
+        <h2>Fornecedores Cadastrados</h2>
+        <div id="tabelaMedicamentos"></div>
     </main>
     <footer>
         <footer class="foot">
