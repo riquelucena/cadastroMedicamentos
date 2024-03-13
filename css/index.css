@@ -10,7 +10,7 @@ html, body {
 }
 
 .head {
-    background: linear-gradient(cadetblue, grey);
+    background: linear-gradient(cadetblue, #656565);
     color: rgb(41, 60, 88);
     display: flex;
     justify-content: space-between;
@@ -57,11 +57,41 @@ html, body {
 }
 
 .medio-site {
+    background-color: rgb(248, 248, 248);
+    color:#656565;
+    padding: 80px 0px;
+}
+
+.medio-site h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.medio-site p {
+    display: flex;
+    font-size: 13px;
+    width: 80%;
+    padding: 0px 150px;        
+}
+
+.carrossel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;   
+}
+
+.carrossel-container img {
+    max-width: 30px;
+    height: auto;
+}
+
+.baixo-site {
     width: 60%;
     margin: 0 auto;
 }
 
-.medio-site h2 {
+.baixo-site h2 {
     text-align: center;
     font-size: 18px;
 }
@@ -82,7 +112,7 @@ html, body {
 }
 
 .container-1, .container-2, .container-3 {
-    background: linear-gradient(cadetblue, grey);
+    background: linear-gradient(cadetblue, #656565);
     width: 30%;
     padding: 80px 20px;
     border-radius: 10px;
@@ -104,7 +134,7 @@ html, body {
 }
 
 .div-parceiro {
-    background: linear-gradient(cadetblue, grey);
+    background: linear-gradient(cadetblue, #656565);
     display: flex;
     justify-content: center;
     padding: 50px;
@@ -133,15 +163,24 @@ html, body {
 }
 
 .div-direitos, .div-controle-de-estoque, .div-suporte, .div-redes-sociais {
+    color: #656565;
     display: inline-block;
+    width: auto;
+    padding: 0px 20px 0px 90px;
+    vertical-align: top;    
 }
 
 .div-redes-sociais img {
     max-width: 30px;
     height: auto;
     margin-right: 10px;
+    vertical-align: middle;
 }
 
-.div-controle-de-estoque p, .div-suporte p, .div-redes-sociais p {
+.div-direitos h4, .div-controle-de-estoque h4, .div-suporte h4 {
     font-size: 12px;
+}
+
+.div-direitos p, .div-controle-de-estoque p, .div-suporte p, .div-redes-sociais p {
+    font-size: 10px;
 }

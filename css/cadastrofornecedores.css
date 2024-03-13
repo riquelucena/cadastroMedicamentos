@@ -53,10 +53,57 @@
 }
 
 .foot {
-    background-color: cadetblue;
-    color: azure;
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px;
     margin-top: 20px;
+}
+
+.div-parceiro {
+    background: linear-gradient(cadetblue, grey);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.div-parceiro h3 {
+    color: azure;
+    margin: 0;
+    font-size: 28px;
+}
+
+.div-parceiro button {
+    background-color: azure;
+    color: rgb(41, 60, 88);
+    padding: 10px 48px;
+    margin: 0px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.div-parceiro button:hover {
+    background-color: rgb(41, 60, 88);
+    color: azure;
+}
+
+.div-direitos, .div-controle-de-estoque, .div-suporte, .div-redes-sociais {
+    color: #656565;
+    display: inline-block;
+    width: auto;
+    padding: 0px 20px 0px 90px;
+    vertical-align: top;    
+}
+
+.div-redes-sociais img {
+    max-width: 30px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.div-direitos h4, .div-controle-de-estoque h4, .div-suporte h4 {
+    font-size: 12px;
+}
+
+.div-direitos p, .div-controle-de-estoque p, .div-suporte p, .div-redes-sociais p {
+    font-size: 10px;
 }
