@@ -36,7 +36,7 @@ function editarMedicamento(dado) {
 
     sessionStorage.setItem("medicamentos", JSON.stringify(medicamentoEd));
 
-    window.location.href = "editar.html";
+    window.location.href = "editarmedicamento.html";
 }
 
 function excluirMedicamento() {

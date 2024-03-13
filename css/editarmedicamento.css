@@ -1,0 +1,30 @@
+.head
+{
+    background-color:cadetblue;
+    color: rgb(41, 60, 88);
+    font-family: "Capriola", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 30px;
+    border-radius: 5px;  
+}
+
+.head h1 {
+    display: inline;
+}
+
+.head h1::after {
+    content: " ESTOQUE DE MEDICAMENTOS";
+    color: azure;
+}
+
+.foot
+{
+    background-color:cadetblue;
+    color: azure;
+    text-align: center;
+    font-family: "Capriola", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+}
